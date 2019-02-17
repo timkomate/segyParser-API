@@ -1,0 +1,3 @@
+/home/timko/Dokumentumok/C++/segyParser/build/CMakeFiles/rebuild_cache.dir
+/home/timko/Dokumentumok/C++/segyParser/build/CMakeFiles/edit_cache.dir
+/home/timko/Dokumentumok/C++/segyParser/build/CMakeFiles/segyParser.dir

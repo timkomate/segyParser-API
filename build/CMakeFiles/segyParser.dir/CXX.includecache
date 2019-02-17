@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/timko/Dokumentumok/C++/segyParser/./include/./utils/endianConversion.h
+iostream
+-
+
+/home/timko/Dokumentumok/C++/segyParser/./include/BinaryHeader.h
+
+/home/timko/Dokumentumok/C++/segyParser/./include/Segy.h
+BinaryHeader.h
+/home/timko/Dokumentumok/C++/segyParser/./include/BinaryHeader.h
+TraceHeader.h
+/home/timko/Dokumentumok/C++/segyParser/./include/TraceHeader.h
+./utils/endianConversion.h
+/home/timko/Dokumentumok/C++/segyParser/./include/./utils/endianConversion.h
+iostream
+-
+vector
+-
+fstream
+-
+
+/home/timko/Dokumentumok/C++/segyParser/./include/TraceHeader.h
+
+/home/timko/Dokumentumok/C++/segyParser/main.cpp
+iostream
+-
+./include/TraceHeader.h
+/home/timko/Dokumentumok/C++/segyParser/./include/TraceHeader.h
+./include/Segy.h
+/home/timko/Dokumentumok/C++/segyParser/./include/Segy.h
+
