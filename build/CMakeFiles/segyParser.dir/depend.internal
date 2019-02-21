@@ -13,6 +13,10 @@ CMakeFiles/segyParser.dir/src/Segy.cpp.o
  /home/timko/Dokumentumok/C++/segyParser/include/Segy.h
  /home/timko/Dokumentumok/C++/segyParser/include/TraceHeader.h
  /home/timko/Dokumentumok/C++/segyParser/src/Segy.cpp
+CMakeFiles/segyParser.dir/src/Traces.cpp.o
+ /home/timko/Dokumentumok/C++/segyParser/include/./utils/endianConversion.h
+ /home/timko/Dokumentumok/C++/segyParser/include/Traces.h
+ /home/timko/Dokumentumok/C++/segyParser/src/Traces.cpp
 CMakeFiles/segyParser.dir/src/printUtil.cpp.o
  /home/timko/Dokumentumok/C++/segyParser/include/./utils/endianConversion.h
  /home/timko/Dokumentumok/C++/segyParser/include/BinaryHeader.h

@@ -24,6 +24,9 @@ class Segy{
     void printTraceHeader();
     void printAllTraceHeader();
     void printInfo();
+    void printTrace(int traceNum);
+
+    void readTrace(int sampleSize);
  private:
    void calcFileSize(); 
    std::ifstream ifs;
@@ -31,7 +34,7 @@ class Segy{
    BinaryHeader binaryHeader;
    std::vector<TraceHeader> traceHeaders;
    int fileSize;
-   //std::vector<>;
+   std::vector<std::vector<float>> traces;
     
 };
 

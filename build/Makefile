@@ -177,6 +177,33 @@ src/Segy.cpp.s:
 	$(MAKE) -f CMakeFiles/segyParser.dir/build.make CMakeFiles/segyParser.dir/src/Segy.cpp.s
 .PHONY : src/Segy.cpp.s
 
+src/Traces.o: src/Traces.cpp.o
+
+.PHONY : src/Traces.o
+
+# target to build an object file
+src/Traces.cpp.o:
+	$(MAKE) -f CMakeFiles/segyParser.dir/build.make CMakeFiles/segyParser.dir/src/Traces.cpp.o
+.PHONY : src/Traces.cpp.o
+
+src/Traces.i: src/Traces.cpp.i
+
+.PHONY : src/Traces.i
+
+# target to preprocess a source file
+src/Traces.cpp.i:
+	$(MAKE) -f CMakeFiles/segyParser.dir/build.make CMakeFiles/segyParser.dir/src/Traces.cpp.i
+.PHONY : src/Traces.cpp.i
+
+src/Traces.s: src/Traces.cpp.s
+
+.PHONY : src/Traces.s
+
+# target to generate assembly for a file
+src/Traces.cpp.s:
+	$(MAKE) -f CMakeFiles/segyParser.dir/build.make CMakeFiles/segyParser.dir/src/Traces.cpp.s
+.PHONY : src/Traces.cpp.s
+
 src/printUtil.o: src/printUtil.cpp.o
 
 .PHONY : src/printUtil.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/Segy.o"
 	@echo "... src/Segy.i"
 	@echo "... src/Segy.s"
+	@echo "... src/Traces.o"
+	@echo "... src/Traces.i"
+	@echo "... src/Traces.s"
 	@echo "... src/printUtil.o"
 	@echo "... src/printUtil.i"
 	@echo "... src/printUtil.s"

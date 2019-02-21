@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/segyParser.dir/main.cpp.o CMakeFiles/segyParser.dir/src/Segy.cpp.o CMakeFiles/segyParser.dir/src/printUtil.cpp.o  -o ../bin/segyParser 
+/usr/bin/c++     CMakeFiles/segyParser.dir/main.cpp.o CMakeFiles/segyParser.dir/src/Segy.cpp.o CMakeFiles/segyParser.dir/src/printUtil.cpp.o CMakeFiles/segyParser.dir/src/Traces.cpp.o  -o ../bin/segyParser 

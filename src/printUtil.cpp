@@ -5,7 +5,8 @@ void Segy::printInfo(){
     int w = 40;
     std::cout << std::left << std::setw(w) << "filename: " << fileName << std::endl;
     std::cout << std::left << std::setw(w) << "filesize: " << fileSize << " B" << std::endl;
-    std::cout << std::left << std::setw(w) << "number of traces: " << traceHeaders.size() << std::endl;
+    std::cout << std::left << std::setw(w) << "number of traces from header: " << traceHeaders.size() << std::endl;
+    std::cout << std::left << std::setw(w) << "number of traces: " << traces.size() << std::endl;
     std::cout << std::left << std::setw(w) << "size of a binaryHeader: " << sizeof(binaryHeader) << std::endl;
 }
 
@@ -229,4 +230,10 @@ void Segy::printTraceHeader(){
     << std::left << std::setw(w) << "Source Type/Orientation:" << std::fixed << SwapEnd(tmpTH.sourceTypeOrientation) << std::endl
     << std::left << std::setw(w) << "Source Measurement Unit:" << std::fixed << SwapEnd(tmpTH.sourceMeasurementUnit) << std::endl
     << std::endl;
+}
+
+void Segy::printTrace(int traceNum){
+    for (int i = 0; i<traces[traceNum].size(); i++){
+        std::cout << traces[traceNum][i] << std::endl;
+    }
 }

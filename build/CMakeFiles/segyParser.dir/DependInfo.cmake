@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/timko/Dokumentumok/C++/segyParser/main.cpp" "/home/timko/Dokumentumok/C++/segyParser/build/CMakeFiles/segyParser.dir/main.cpp.o"
   "/home/timko/Dokumentumok/C++/segyParser/src/Segy.cpp" "/home/timko/Dokumentumok/C++/segyParser/build/CMakeFiles/segyParser.dir/src/Segy.cpp.o"
+  "/home/timko/Dokumentumok/C++/segyParser/src/Traces.cpp" "/home/timko/Dokumentumok/C++/segyParser/build/CMakeFiles/segyParser.dir/src/Traces.cpp.o"
   "/home/timko/Dokumentumok/C++/segyParser/src/printUtil.cpp" "/home/timko/Dokumentumok/C++/segyParser/build/CMakeFiles/segyParser.dir/src/printUtil.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

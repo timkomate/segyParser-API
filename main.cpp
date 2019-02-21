@@ -7,7 +7,9 @@ int main(int argc, char ** argv){
     s.openSegyFile(argv[1]);
     s.parseSegyFile();
     s.printBinaryHeader();
-    s.printAllTraceHeader();
+    //s.printAllTraceHeader();
+    s.printTraceHeader(0);
+    //s.printTrace(0);
     s.printInfo();
     s.closeSegyFile();
 }

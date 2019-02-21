@@ -13,6 +13,10 @@ CMakeFiles/segyParser.dir/src/Segy.cpp.o: ../include/Segy.h
 CMakeFiles/segyParser.dir/src/Segy.cpp.o: ../include/TraceHeader.h
 CMakeFiles/segyParser.dir/src/Segy.cpp.o: ../src/Segy.cpp
 
+CMakeFiles/segyParser.dir/src/Traces.cpp.o: ../include/./utils/endianConversion.h
+CMakeFiles/segyParser.dir/src/Traces.cpp.o: ../include/Traces.h
+CMakeFiles/segyParser.dir/src/Traces.cpp.o: ../src/Traces.cpp
+
 CMakeFiles/segyParser.dir/src/printUtil.cpp.o: ../include/./utils/endianConversion.h
 CMakeFiles/segyParser.dir/src/printUtil.cpp.o: ../include/BinaryHeader.h
 CMakeFiles/segyParser.dir/src/printUtil.cpp.o: ../include/Segy.h

@@ -9,4 +9,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
 
 add_executable(segyParser main.cpp ./include/Segy.h 
 ./include/BinaryHeader.h ./src/Segy.cpp ./include/TraceHeader.h 
-./include/utils/endianConversion.h ./src/printUtil.cpp)
+./include/utils/endianConversion.h ./src/printUtil.cpp
+./include/Traces.h ./src/Traces.cpp)
